@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Event Registration</title>
+<style>
+  form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  h2 {
+    text-align: center;
+  }
+  input[type="text"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #6c7bff;
+    color: white;
+    border: none;
+  }
+</style>
+</head>
+<body>
+  <form>
+    <h2>Event Registration</h2>
+
+    Name
+    <input type="text" required>
+
+    Gender<br>
+    <input type="radio" name="gender" required> Male<br>
+    <input type="radio" name="gender" required> Female<br><br>
+
+    Select Event
+    <select required>
+      <option value="">Choose Event</option>
+      <option>Tech Fest</option>
+      <option>Cultural Fest</option>
+      <option>Sports Meet</option>
+    </select>
+
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
